@@ -1,7 +1,7 @@
 
 """
 Original file is located at
-    https://colab.research.google.com/drive/1iN-CscwwUKkVgZ7He2B_okx_TOw-D427
+    https://colab.research.google.com/drive/1zdxKMgc-Bix6C54jmzAb2Zb0Sd4YDdN8#scrollTo=vAF78gstUrvK&line=6&uniqifier=1
 """
 
 import numpy as np
@@ -13,7 +13,7 @@ from sklearn.linear_model import LogisticRegression
 
 """Data Collection/Loading and Processing."""
 
-titanic_data = pd.read_csv('/content/Titanic-Dataset.csv')
+titanic_data = pd.read_csv('/Titanic-Dataset.csv')
 
 titanic_data.head()
 
